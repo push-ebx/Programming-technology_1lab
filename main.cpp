@@ -1,4 +1,3 @@
-#include <conio.h>
 #include <iostream>
 #include "Queue1.h"
 #include "Queue2.h"
@@ -110,7 +109,6 @@ int main()
       break;
     }
   }
-  _getch();
   return 0;
 }
 
