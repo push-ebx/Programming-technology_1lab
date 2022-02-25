@@ -1,5 +1,4 @@
-#ifndef QUEUE_H
-#define QUEUE_H
+#pragma once
 
 class Queue
 {
@@ -25,4 +24,3 @@ public:
   Queue copy();
   Queue join(Queue q1, Queue q2);
 };
-#endif

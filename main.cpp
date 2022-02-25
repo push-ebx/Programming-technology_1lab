@@ -10,8 +10,7 @@ int *array_input(int count);
 template <typename T>
 void fill_queue(T *queue);
 
-enum commands
-{ PUSH = 1, POP, PRINT, EVEN, COPY, JOIN, EXIT };
+enum commands { PUSH = 1, POP, PRINT, EVEN, COPY, JOIN, EXIT };
 
 int main()
 {

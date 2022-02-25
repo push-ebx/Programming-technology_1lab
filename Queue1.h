@@ -1,3 +1,4 @@
+#pragma once
 #include "Queue.h"
 
 class Queue1 : public Queue

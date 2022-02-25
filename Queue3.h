@@ -1,4 +1,4 @@
-#include <iostream>
+#pragma once
 #include "Queue.h"
 
 class Queue3 : private Queue
