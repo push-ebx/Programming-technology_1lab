@@ -105,13 +105,3 @@ Queue Queue::join(Queue q1, Queue q2)
     q3.push(q2_copy.pop());
   return q3;
 }
-
-int *Queue::getArray()
-{
-  int *array = new int[count];
-  for (int i = 0; i < count; i++)
-  {
-    array[i] = queue[i].value;
-  }
-  return array;
-}
